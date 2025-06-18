@@ -1,0 +1,14 @@
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/bin/Debug/net8.0/dataforPresentationInC#
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/bin/Debug/net8.0/dataforPresentationInC#.deps.json
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/bin/Debug/net8.0/dataforPresentationInC#.runtimeconfig.json
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/bin/Debug/net8.0/dataforPresentationInC#.dll
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/bin/Debug/net8.0/dataforPresentationInC#.pdb
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.GeneratedMSBuildEditorConfig.editorconfig
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.AssemblyInfoInputs.cache
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.AssemblyInfo.cs
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.csproj.CoreCompileInputs.cache
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.dll
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/refint/dataforPresentationInC#.dll
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.pdb
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.genruntimeconfig.cache
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/ref/dataforPresentationInC#.dll
