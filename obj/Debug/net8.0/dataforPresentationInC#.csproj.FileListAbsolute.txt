@@ -12,3 +12,4 @@
 /home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.pdb
 /home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.genruntimeconfig.cache
 /home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/ref/dataforPresentationInC#.dll
+/home/elisha/Desktop/C#/projects/FormatAlphanumeric/dataforPresentationInC#/obj/Debug/net8.0/dataforPresentationInC#.sourcelink.json

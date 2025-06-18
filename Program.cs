@@ -1,5 +1,56 @@
-﻿string first = "Hello";
+﻿/*
+string first = "Hello";
 string second = "world"; ;
 // string result = string.Format("{0} {1}", first, second);
-Console.WriteLine("{1} {0}!", first, second);
-Console.WriteLine("{0} {0} {0}!", first, second);
+// Console.WriteLine("{1} {0}!", first, second);
+// Console.WriteLine("{0} {0} {0}!", first, second);
+
+
+// String interpolation
+Console.WriteLine($"{first} {second}!");
+Console.WriteLine($"{second} {first}!");
+Console.WriteLine($"{first} {first} {first}!");
+Console.WriteLine();
+
+// Formatting currency
+decimal price = 123.45m;
+int discount = 50;
+Console.WriteLine($"Price: {price:c} (save {discount:c})"); // the `:c` formats the number as currency regardless of whether it's int or decimal.
+Console.WriteLine();
+
+// Formatting numbers
+decimal measurement = 123456.78912m;
+Console.WriteLine($"Measurement: {measurement:N} units"); // by default, N numeric format specifier displays only two or three digits after the decimal point.
+Console.WriteLine($"Measurement: {measurement:N5} units"); // if you want to display more (or less) precision. You do that by adding a number after the specifier eg. :N5 in this code line.
+Console.WriteLine();
+
+// Formating percentages
+decimal tax = .36785m;
+Console.WriteLine($"Tax rate: {tax:P2}"); // use the P format specifier to format percentages and rounds to prefered precissions.
+Console.WriteLine();
+
+// Combining formatting approaches
+decimal thePrice = 67.55m;
+decimal salePrice = 59.99m;
+
+String yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (thePrice - salePrice), thePrice);
+yourDiscount += $"A discount of {((thePrice - salePrice) / thePrice):P2}!";
+Console.WriteLine(yourDiscount);
+Console.WriteLine();
+*/
+
+
+
+// Program to print a receipt for the customer purchasing shares
+
+int invoiceNumber = 1201;
+decimal productShares = 25.4568m;
+decimal subtotal = 2750.00m;
+decimal taxPercentage = .15825m;
+decimal total = 3185.19m;
+
+Console.WriteLine($"Invoice Number: {invoiceNumber}");
+Console.WriteLine($"  Shares: {productShares:N3} Product");
+Console.WriteLine($"    Sub Total: {subtotal:c}");
+Console.WriteLine($"        Tax: {taxPercentage:P2}");
+Console.WriteLine($"    Total Billed: {total:c}");
