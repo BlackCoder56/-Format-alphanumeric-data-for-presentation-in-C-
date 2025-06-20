@@ -37,7 +37,7 @@ String yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} pri
 yourDiscount += $"A discount of {((thePrice - salePrice) / thePrice):P2}!";
 Console.WriteLine(yourDiscount);
 Console.WriteLine();
-*/
+
 
 
 
@@ -54,3 +54,21 @@ Console.WriteLine($"  Shares: {productShares:N3} Product");
 Console.WriteLine($"    Sub Total: {subtotal:c}");
 Console.WriteLine($"        Tax: {taxPercentage:P2}");
 Console.WriteLine($"    Total Billed: {total:c}");
+*/
+
+// Discovering padding and alignment
+// Here's a brief list of categories of these built-in methods so you can get an idea of what's possible.
+
+//   -> Methods that add blank spaces for formatting purposes (PadLeft(), PadRight())
+//   -> Methods that compare two strings or facilitate comparison (Trim(), TrimStart(), TrimEnd(), GetHashcode(), the Length property)
+//   -> Methods that help you determine what's inside of a string, or even retrieve just a part of the string (Contains(), StartsWith(), EndsWith(), Substring())
+//   -> Methods that change the content of the string by replacing, inserting, or removing parts (Replace(), Insert(), Remove())
+//   -> Methods that turn a string into an array of strings or characters (Split(), ToCharArray())
+
+// The PadLeft() method adds blank spaces to the left-hand side of the string.
+string input = "Pad this";
+// Console.WriteLine(input.PadLeft(12));
+// Console.WriteLine(input.PadRight(12));
+Console.Clear();
+Console.WriteLine(input.PadLeft(12, '-'));
+Console.WriteLine(input.PadRight(12, '-'));
